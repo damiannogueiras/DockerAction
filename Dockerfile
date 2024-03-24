@@ -2,8 +2,8 @@
 FROM alpine:3.10
 
 # Copy code file from host to container
-COPY entreypoint.sh /entreypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
 # Run the code
-ENTRYPOINT ["/entreypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 

@@ -7,3 +7,5 @@ COPY entrypoint.sh /entrypoint.sh
 # Run the code
 ENTRYPOINT ["/entrypoint.sh"]
 
+# Change the permission of the file
+RUN ["chmod", "+x", "/entrypoint.sh"]
